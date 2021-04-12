@@ -3,7 +3,7 @@ DECLARE
     b number;
     c number;
     
-PROCEDURE findMin(x IN number, y IN number, z OUT number) IS  //z is always the lower one, z is OUT !!!
+PROCEDURE findMin(x IN number, y IN number, z OUT number) IS  //z is always the lower one, z is OUT
     BEGIN
         IF  x < y THEN
             z:= x;
