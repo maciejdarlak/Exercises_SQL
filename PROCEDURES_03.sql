@@ -39,6 +39,5 @@ END;
 OUTPUT
 Procedure created.
 
-Statement processed.
-SquareNum of (100) is 10000
+
 */
