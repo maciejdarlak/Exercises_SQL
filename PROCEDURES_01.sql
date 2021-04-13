@@ -1,9 +1,9 @@
 DECLARE
-    a number;
-    b number;
-    c number;
+    a NUMBER;
+    b NUMBER;
+    c NUMBER;
     
-PROCEDURE findMin(x IN number, y IN number, z OUT number) IS  //z is always the lower one, z is OUT
+PROCEDURE findMin(x IN NUMBER, y IN NUMBER, z OUT NUMBER) IS  /*z is always the lower one, z is OUT*/
     BEGIN
         IF  x < y THEN
             z:= x;
@@ -18,3 +18,12 @@ PROCEDURE findMin(x IN number, y IN number, z OUT number) IS  //z is always the 
         dbms_output.put_line('Minimum value of (10, 20) is ' || c);
     END;
 /
+
+
+/*
+OUTPUT
+Procedure created.
+
+Statement processed.
+Minimum value of (10, 20) is 10
+*/

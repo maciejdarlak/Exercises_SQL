@@ -1,7 +1,7 @@
 DECLARE
-     a number ;
+     a NUMBER ;
  
-PROCEDURE squareNum(x IN OUT number) IS
+PROCEDURE squareNum(x IN OUT NUMBER) IS
     BEGIN
         x:= x * x;
     END;
@@ -11,3 +11,12 @@ PROCEDURE squareNum(x IN OUT number) IS
         dbms_output.put_line('SquareNum of (100) is ' ||a); 
     END;
 /
+
+
+/*
+OUTPUT
+Procedure created.
+
+Statement processed.
+SquareNum of (100) is 10000
+*/
